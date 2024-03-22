@@ -1,0 +1,1 @@
+The public folder contains all images, videos and other media content.

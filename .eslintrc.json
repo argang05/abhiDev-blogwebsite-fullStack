@@ -1,3 +1,5 @@
+//Define eslint rules:
+
 {
   "extends": [
     "eslint:recommended",

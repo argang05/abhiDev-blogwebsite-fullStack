@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.textContainer{
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subtitle{
+    color: var(--btn);
+}
+
+.title{
+    font-size: 33px;
+}
+
+.desc{
+    font-size: 18px;
+    font-weight: 250;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.box h1{
+    color: var(--btn);
+}
+
+.imgContainer{
+    flex: 0.8;
+    position: relative;
+}
+
+.img{
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .boxes{
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+}
